@@ -14,6 +14,7 @@
       "access":"Request Access"
    },
    "dashboard":{
+      "title":"Analytics",
       "header":"Dashboard",
       "sub-header":"A quick peak in to what we know about you!",
       "stats":{
@@ -31,6 +32,7 @@
       }
    },
    "errors":{
+      "title":"Errors",
       "index":{
          "header":"Browse Errors",
          "sub-header":"Browse all the errors we've received from a given server",
@@ -74,6 +76,7 @@
       }
    },
    "logs":{
+      "title":"Logs",
       "live":{
          "header":"Live Logs",
          "sub-header":"See all the logs as they come in at real time!",
@@ -141,6 +144,7 @@
       }
    },
    "status":{
+      "title":"Status",
       "index":{
          "players":"Players",
          "uptime":"Uptime",
@@ -212,6 +216,7 @@
       }
    },
    "community":{
+      "title":"Administration",
       "header":"Community - Edit",
       "sub-header":"Edit the information about this community",
       "name":"Name",
