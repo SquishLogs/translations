@@ -158,6 +158,13 @@
          "steam-profile":"Steam Profile",
          "namemc-profile":"NameMC Profile",
          "filter-logs":"Filter Logs"
+      },
+      "meta":{
+         "platfrom-name":"Platform Name",
+         "platfrom-id":"Platform ID",
+         "health":"Health",
+         "weapon":"Weapon",
+         "team":"Team"
       }
    },
    "status":{
