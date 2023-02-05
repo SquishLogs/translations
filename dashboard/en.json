@@ -141,6 +141,23 @@
             "server":"Server"
          },
          "empty":"There are currently no players to show with this filter..."
+      },
+      "side-bar":{
+         "details":"Details",
+         "server":"Server",
+         "first-joined":"First Joined",
+         "steam-name":"Steam Name",
+         "steamid":"SteamID",
+         "steamid-64":"SteamID 64",
+         "minecraft-name":"Minecraft Name",
+         "minecraftid":"MinecraftID",
+         "statistics":"Statistics",
+         "active-logs":"Active Logs",
+         "archived-logs":"Archived Logs",
+         "notes":"Notes",
+         "steam-profile":"Steam Profile",
+         "namemc-profile":"NameMC Profile",
+         "filter-logs":"Filter Logs"
       }
    },
    "status":{
