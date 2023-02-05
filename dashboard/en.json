@@ -1,0 +1,233 @@
+{
+   "general":{
+      "loading":"Loading...",
+      "search":"Search",
+      "filters":"Filters",
+      "clear-filters":"Clear Filters"
+   },
+   "auth":{
+      "logout":"Logout"
+   },
+   "request":{
+      "info":"It seems you don't have access to view the logs for {{community}}. You can request access here, allowing an admin to approve you.",
+      "pending":"Your access request is pending, you made this request {{time}}.",
+      "access":"Request Access"
+   },
+   "dashboard":{
+      "header":"Dashboard",
+      "sub-header":"A quick peak in to what we know about you!",
+      "stats":{
+         "servers":"Servers",
+         "players":"Players",
+         "connections":"Connections",
+         "active-logs":"Active Logs",
+         "archived-logs":"Archived Logs"
+      },
+      "charts":{
+         "logs-by-day":"Logs by Day",
+         "connections-by-day":"Connections by Day",
+         "average-connections-by-hour":"Average Connections by Hour",
+         "new-players-by-day":"New Players by Day"
+      }
+   },
+   "errors":{
+      "index":{
+         "header":"Browse Errors",
+         "sub-header":"Browse all the errors we've received from a given server",
+         "filters":{
+            "resolved":"Include Resolved",
+            "server":"Server"
+         },
+         "table":{
+            "server":"Server",
+            "error":"Error",
+            "realm":"Realm",
+            "occurrences":"Occurrences",
+            "last":"Last"
+         },
+         "empty":"There are currently no errors to show with this filter..."
+      },
+      "profile":{
+         "header":"Error #{{id}}",
+         "sub-header":"Get a better break down of this error",
+         "copied":"Copied",
+         "share":"Share",
+         "resolved":"Resolved",
+         "error":"Error",
+         "stack":"Stack",
+         "lead-up-logs":"Lead Up Logs",
+         "mark-resolved":"Mark Resolved",
+         "stats":{
+            "server":"Server",
+            "occurrences":"Occurrences",
+            "date":"Date"
+         },
+         "table":{
+            "category":"Category",
+            "log":"Log",
+            "when":"When"
+         }
+      },
+      "shared":{
+         "header":"Shared Error",
+         "sub-header":"This error has been shared with you"
+      }
+   },
+   "logs":{
+      "live":{
+         "header":"Live Logs",
+         "sub-header":"See all the logs as they come in at real time!",
+         "table":{
+            "server":"Server",
+            "category":"Category",
+            "log":"Log"
+         },
+         "empty":"There are currently no logs to show with this filter..."
+      },
+      "browse":{
+         "header":"Browse Logs",
+         "sub-header":"Browse all the logs for a given server, use the filters to pin point your exact desires",
+         "filters":{
+            "archived":"Archived",
+            "server":"Server",
+            "category":"Category",
+            "player":"Player"
+         },
+         "table":{
+            "server":"Server",
+            "category":"Category",
+            "log":"Log",
+            "when":"When"
+         },
+         "empty":"There are currently no logs to show with this filter..."
+      },
+      "export":{
+         "header":"Export Logs",
+         "sub-header":"Export your logs to a csv, for that extra flexablity",
+         "create-export":"Create Export",
+         "download":"Download",
+         "generating":"Generating...",
+         "filters":{
+            "server":"Server"
+         },
+         "table":{
+            "server":"Server",
+            "name":"Name",
+            "date-range":"Date Range",
+            "type":"Type",
+            "created":"Created"
+         },
+         "empty":"There are currently no exports to show with this filter..."
+      },
+      "export-create":{
+         "header":"Create a Log Export",
+         "game-server":"Game Server",
+         "name":"Name (Optional)",
+         "format":"Human Format (Export in a human readable way)",
+         "date-start":"Start Date",
+         "date-end":"End Date",
+         "create":"Create"
+      }
+   },
+   "players":{
+      "index":{
+         "header":"Players",
+         "sub-header":"Browse the catalog of players with logs for this community",
+         "last-seen":"Last seen {{time}}",
+         "filters":{
+            "server":"Server"
+         },
+         "empty":"There are currently no players to show with this filter..."
+      }
+   },
+   "status":{
+      "index":{
+         "players":"Players",
+         "uptime":"Uptime",
+         "90-days-ago":"90 days ago",
+         "today":"Today"
+      },
+      "manage":{
+         "header":"Manage Status",
+         "sub-header":"Manage what shows up on your public status page",
+         "view-status-page":"View Status Page",
+         "table":{
+            "server":"Server",
+            "show-players":"Show Players",
+            "show-uptime":"Show Uptime"
+         }
+      }
+   },
+   "users":{
+      "header":"Users",
+      "sub-header":"Give a user access to this panel.",
+      "access-requests":"Access Requests",
+      "manage-users":"Manage Users",
+      "table":{
+         "user":"User",
+         "platform":"platform",
+         "requested":"Requested",
+         "accept":"Accept",
+         "decline":"Decline",
+         "manage-community":"Manage Community",
+         "manage-users":"Manage Users",
+         "manage-errors":"Manage Errors",
+         "view-server":"View {{server}}",
+         "joined":"Joined",
+         "kick":"Kick"
+      }
+   },
+   "servers":{
+      "index":{
+         "header":"Servers",
+         "sub-header":"A complete list of all your registered servers. You've currently used {{slots}} of your slots.",
+         "create-server":"Create Server",
+         "purchase-allotment-token":"Purchase Allotment Token"
+      },
+      "create":{
+         "header":"Create",
+         "sub-header":"Add a new server to your community",
+         "sub-header-edit":"Edit this server",
+         "name":"Name",
+         "region":"Region",
+         "ip":"IP Address",
+         "game":"Game",
+         "color":"Color",
+         "discord-webhook":"Discord Webhook (Optional)",
+         "report-errors":"Report Errors",
+         "save":"Save",
+         "create":"Create"
+      },
+      "profile":{
+         "sub-header":"This server and what you can do with it",
+         "edit":"Edit",
+         "download-integration":"Download Integration",
+         "download-integration-info":"Download the integration for this addon. This will provide a pre-configured zip file that you can then install directly in to your server. Please check the docs for the relevant game on any extra steps required.",
+         "docs":"Documentation",
+         "download":"Download",
+         "error-logging":"Error Logging",
+         "error-logging-info":"We have detected that you've enabled error logging. In order for this feature to work for Garry's Mod, you will need to add the following to your 'server\/garrysmod\/cfg\/server.cfg' file.",
+         "discord-integration":"Discord Integration",
+         "discord-integration-info":"You can get started with sending logs to your Discord server by following the docs. After you've installed the required dependencies, restart your server and you should start receiving logs."
+      }
+   },
+   "community":{
+      "header":"Community - Edit",
+      "sub-header":"Edit the information about this community",
+      "name":"Name",
+      "custom-domain":"Custom Domain (Optional)",
+      "custom-domain-info":"Every community is able to add a custom domain.",
+      "docs":"Documentation",
+      "clear":"Clear",
+      "save":"Save"
+   },
+   "settings":{
+      "header":"User Settings",
+      "sub-header":"Change your settings here!",
+      "name":"Name",
+      "dark-mode":"Dark Mode",
+      "language":"Language",
+      "logout":"Logout",
+      "save":"Save"
+   }
+}
