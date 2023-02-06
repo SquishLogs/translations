@@ -14,13 +14,14 @@
       "access":"Запросить доступ"
    },
    "dashboard":{
+      "title":"Аналитика",
       "header":"Обзор",
       "sub-header":"Краткий обзор того, что мы знаем о вас!",
       "stats":{
          "servers":"Сервера",
          "players":"Игроки",
-         "connections":"Подключения",
-         "active-logs":"Активные Логов",
+         "connections":"Подключений",
+         "active-logs":"Активных Логов",
          "archived-logs":"Архивированных Логов"
       },
       "charts":{
@@ -31,6 +32,7 @@
       }
    },
    "errors":{
+      "title":"Ошибки",
       "index":{
          "header":"Список Ошибок",
          "sub-header":"Список всех ошибок полученные от сервера",
@@ -74,6 +76,7 @@
       }
    },
    "logs":{
+      "title":"Логи",
       "live":{
          "header":"Лайв Логи",
          "sub-header":"Просматривайте логи в реальном времени!",
@@ -138,9 +141,34 @@
             "server":"Сервер"
          },
          "empty":"Ничего не найдено или здесь пусто..."
+      },
+      "side-bar":{
+         "details":"Детали",
+         "server":"Сервер",
+         "first-joined":"Впервые Зашёл",
+         "steam-name":"Steam Имя",
+         "steamid":"SteamID",
+         "steamid-64":"SteamID 64",
+         "minecraft-name":"Minecraft Имя",
+         "minecraftid":"MinecraftID",
+         "statistics":"Статистика",
+         "active-logs":"Активных Логов",
+         "archived-logs":"Архивированных Логов",
+         "notes":"Заметки",
+         "steam-profile":"Steam Профиль",
+         "namemc-profile":"NameMC Профиль",
+         "filter-logs":"Посмотреть Логи"
+      },
+      "meta":{
+         "platfrom-name":"Имя",
+         "platfrom-id":"ID",
+         "health":"Здоровье",
+         "weapon":"Оружие",
+         "team":"Команда"
       }
    },
    "status":{
+      "title":"Статус",
       "index":{
          "players":"Игроки",
          "uptime":"Аптайм",
@@ -212,6 +240,7 @@
       }
    },
    "community":{
+      "title":"Администрирование",
       "header":"Настройка Панели",
       "sub-header":"Изменение настроек",
       "name":"Название",
