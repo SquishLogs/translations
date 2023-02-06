@@ -16,7 +16,7 @@
    "dashboard":{
       "title":"Analytics",
       "header":"Dashboard",
-      "sub-header":"A quick peak in to what we know about you!",
+      "sub-header":"A quick peek in to what we know about you!",
       "stats":{
          "servers":"Servers",
          "players":"Players",
