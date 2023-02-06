@@ -1,0 +1,262 @@
+{
+   "general":{
+      "loading":"Chargement...",
+      "search":"Rechercher",
+      "filters":"Filtres",
+      "clear-filters":"Effacer les filtres"
+   },
+   "auth":{
+      "logout":"Déconnexion"
+   },
+   "request":{
+      "info":"Il semble que vous n'ayez pas accès à l'affichage des journaux pour {{community}}. Vous pouvez demander l'accès ici, ce qui permettra à un administrateur de vous approuver.",
+      "pending":"Votre demande d'accès est en cours, vous avez fait cette demande il y a {{time}}.",
+      "access":"Demander l'accès"
+   },
+   "dashboard":{
+      "title":"Analytique",
+      "header":"Tableau de bord",
+      "sub-header":"Un petit aperçu de ce que nous savons de vous !",
+      "stats":{
+         "servers":"Serveurs",
+         "players":"Joueurs",
+         "connections":"Connexions",
+         "active-logs":"Logs actifs",
+         "archived-logs":"Logs archivés"
+      },
+      "charts":{
+         "logs-by-day":"Logs par jour",
+         "connections-by-day":"Connexions par jour",
+         "average-connections-by-hour":"Connexions moyennes par heure",
+         "new-players-by-day":"Nouveaux joueurs par jour"
+      }
+   },
+   "errors":{
+      "title":"Erreurs",
+      "index":{
+         "header":"Parcourir les erreurs",
+         "sub-header":"Parcourir toutes les erreurs que nous avons reçues",
+         "filters":{
+            "resolved":"Inclure Résolu",
+            "server":"Serveur"
+         },
+         "table":{
+            "server":"Serveur",
+            "error":"Erreur",
+            "realm":"Monde",
+            "occurrences":"Événements",
+            "last":"Dernier"
+         },
+         "empty":"Il n'y a actuellement aucune erreur à afficher avec ce filtre...."
+      },
+      "profile":{
+         "header":"Erreur #{{id}}",
+         "sub-header":"Obtenez une meilleure analyse de cette erreur",
+         "copied":"Copier",
+         "share":"Partager",
+         "resolved":"Résolu",
+         "error":"Erreur",
+         "stack":"Empiler",
+         "lead-up-logs":"Journal de bord",
+         "mark-resolved":"Marquer en Résolu",
+         "stats":{
+            "server":"Serveur
+            "occurrences":"Événements",
+            "date":"Date"
+         },
+         "table":{
+            "category":"Catégorie",
+            "log":"Log",
+            "when":"Quand"
+         }
+      },
+      "shared":{
+         "header":"Erreur partagée",
+         "sub-header":"Cette erreur a été partagée avec vous"
+      }
+   },
+   "logs":{
+      "title":"Logs",
+      "live":{
+         "header":"Logs en direct",
+         "sub-header":"Voyez tous les logs au fur et à mesure qu'ils arrivent en temps réel !",
+         "table":{
+            "server":"Serveur",
+            "category":"Catégorie",
+            "log":"Log"
+         },
+         "empty":"Il n'y a actuellement aucun log à afficher avec ce filtre..."
+      },
+      "browse":{
+         "header":"Parcourir les logs",
+         "sub-header":"Parcourez tous les logs d'un serveur donné, utilisez les filtres pour cibler précisément vos besoins.",
+         "filters":{
+            "archived":"Archivé",
+            "server":"Serveur",
+            "category":"Catégorie",
+            "player":"Joueur"
+         },
+         "table":{
+            "server":"Serveur",
+            "category":"Catégorie",
+            "log":"Log",
+            "when":"Quand"
+         },
+         "empty":"Il n'y a actuellement aucun log à afficher avec ce filtre..."
+      },
+      "export":{
+         "header":"Exporter les logs",
+         "sub-header":"Exportez vos logs au format csv, pour plus de flexibilité.",
+         "create-export":"Créer une exportation",
+         "download":"Télécharger",
+         "generating":"Génération...",
+         "filters":{
+            "server":"Serveur"
+         },
+         "table":{
+            "server":"Serveur",
+            "name":"Nom",
+            "date-range":"Date",
+            "type":"Type",
+            "created":"Créé"
+         },
+         "empty":"Il n'y a actuellement aucune exportation à afficher avec ce filtre...."
+      },
+      "export-create":{
+         "header":"Créer une exportation de log",
+         "game-server":"Serveur de jeu",
+         "name":"Nom (facultatif)",
+         "format":"Format humain (Exportation d'une manière lisible par l'homme)",
+         "date-start":"Date de début",
+         "date-end":"Date de fin",
+         "create":"Créer"
+      }
+   },
+   "players":{
+      "index":{
+         "header":"Joueurs",
+         "sub-header":"Parcourir le catalogue des joueurs ayant des logs pour cette communauté",
+         "last-seen":"Dernière vue {{time}}",
+         "filters":{
+            "server":"Serveur"
+         },
+         "empty":"Il n'y a actuellement aucun joueur à afficher avec ce filtre..."
+      },
+      "side-bar":{
+         "details":"Détails",
+         "server":"Serveur",
+         "first-joined":"Première connexion",
+         "steam-name":"Nom Steam",
+         "steamid":"SteamID",
+         "steamid-64":"SteamID 64",
+         "minecraft-name":"Nom Minecraft",
+         "minecraftid":"MinecraftID",
+         "statistics":"Statistiques",
+         "active-logs":"Logs actifs",
+         "archived-logs":"Logs archivés",
+         "notes":"Notes",
+         "steam-profile":"Profil Steam",
+         "namemc-profile":"Profil NameMC",
+         "filter-logs":"Filtrer les logs"
+      },
+      "meta":{
+         "platfrom-name":"Nom de la plate-forme",
+         "platfrom-id":"ID de la plate-forme",
+         "health":"Vie",
+         "weapon":"Arme",
+         "team":"Métier"
+      }
+   },
+   "status":{
+      "title":"Status",
+      "index":{
+         "players":"Joueurs",
+         "uptime":"Temps de fonctionnement",
+         "90-days-ago":"Il y a 90 jours",
+         "today":"Aujourd'hui"
+      },
+      "manage":{
+         "header":"Gérer le statut",
+         "sub-header":"Gérez ce qui apparaît sur votre page de statut publique",
+         "view-status-page":"Afficher la page de statut",
+         "table":{
+            "server":"Serveurs",
+            "show-players":"Voir les joueurs",
+            "show-uptime":"Voir le temps de fonctionnement"
+         }
+      }
+   },
+   "users":{
+      "header":"Utilisateurs",
+      "sub-header":"Donner à un utilisateur l'accès à ce panel.",
+      "access-requests":"Demandes d'accès",
+      "manage-users":"Gérer les utilisateurs",
+      "table":{
+         "user":"Utilisateur",
+         "platform":"Plate-forme",
+         "requested":"Demandé",
+         "accept":"Accepter",
+         "decline":"Refuser",
+         "manage-community":"Gérer la communauté",
+         "manage-users":"Gérer les utilisateurs",
+         "manage-errors":"Gérer les erreurs",
+         "view-server":"Voir {{server}}",
+         "joined":"Inscrit",
+         "kick":"Expulser"
+      }
+   },
+   "servers":{
+      "index":{
+         "header":"Serveurs",
+         "sub-header":"Une liste complète de tous vos serveurs enregistrés. Vous avez actuellement utilisé {{slots}} de vos créneaux horaires.",
+         "create-server":"Créer un serveur",
+         "purchase-allotment-token":"Acheter un jeton d'attribution"
+      },
+      "create":{
+         "header":"Créer",
+         "sub-header":"Ajouter un nouveau serveur à votre communauté",
+         "sub-header-edit":"Modifier ce serveur",
+         "name":"Nom",
+         "region":"Région",
+         "ip":"Adresse IP",
+         "game":"Jeu",
+         "color":"Couleur",
+         "discord-webhook":"Webhoob Discord (Facultatif)",
+         "report-errors":"Rapport d'erreurs",
+         "save":"Sauvegarder",
+         "create":"Créer"
+      },
+      "profile":{
+         "sub-header":"Ce serveur et ce que vous pouvez en faire",
+         "edit":"Modifier",
+         "download-integration":"Télécharger l'intégration",
+         "download-integration-info":"Téléchargez l'intégration de cet addon. Vous obtiendrez un fichier zip pré-configuré que vous pourrez ensuite installer directement sur votre serveur. Veuillez consulter la documentation du jeu concerné pour connaître les étapes supplémentaires.",
+         "docs":"Documentation",
+         "download":"Télécharger",
+         "error-logging":"Enregistrement des erreurs",
+         "error-logging-info":"Nous avons détecté que vous avez activé la journalisation des erreurs. Pour que cette fonctionnalité fonctionne dans Garry's Mod, vous devez ajouter les éléments suivants à votre fichier "server\/garrysmod\/cfg\/server.cfg".",
+         "discord-integration":"Intégration Discord",
+         "discord-integration-info":"Vous pouvez commencer à envoyer des logs à votre serveur Discord en suivant la documentation. Après avoir installé les dépendances requises, redémarrez votre serveur et vous devriez commencer à recevoir des logs."
+      }
+   },
+   "community":{
+      "title":"Administration",
+      "header":"Communauté - Modifier",
+      "sub-header":"Modifier les informations sur cette communauté",
+      "name":"Nom",
+      "custom-domain":"Domaine personnalisé (facultatif)",
+      "custom-domain-info":"Chaque communauté a la possibilité d'ajouter un domaine personnalisé.",
+      "docs":"Documentation",
+      "clear":"Réinitialiser",
+      "save":"Sauvegarder"
+   },
+   "settings":{
+      "header":"Paramètres de l'utilisateur",
+      "sub-header":"Changez vos paramètres ici !",
+      "name":"Nom",
+      "dark-mode":"Mode sombre",
+      "language":"Langue",
+      "logout":"Déconnexion",
+      "save":"Sauvegarder"
+   }
+}
