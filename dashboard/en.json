@@ -241,7 +241,7 @@
    },
    "community":{
       "title":"Administration",
-      "header":"Community - Edit",
+      "header":"Community",
       "sub-header":"Edit the information about this community",
       "name":"Name",
       "custom-domain":"Custom Domain (Optional)",
