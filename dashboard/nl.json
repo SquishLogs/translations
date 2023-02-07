@@ -214,7 +214,7 @@
       },
       "create":{
          "header":"Maak",
-         "sub-header":"Voeg een nieuwe server aan uw community",
+         "sub-header":"Voeg een nieuwe server toe aan uw community",
          "sub-header-edit":"Bewerk deze server",
          "name":"Naam",
          "region":"Regio",
@@ -236,7 +236,7 @@
          "error-logging":"Foutmeldingen loggen",
          "error-logging-info":"We zien dat u foutmeldingen loggen heeft ingeschakeld. Om deze functie te laten werken voor Garry's Mod, moet u het volgende toevoegen aan uw 'server\/garrysmod\/cfg\/server.cfg' bestand.",
          "discord-integration":"Discord integratie",
-         "discord-integration-info":"U kunt aan de slag met het verzenden van logs naar uw Discord-server door de documentatie te volgen. Nadat u de vereiste afhankelijkheden heeft geïnstalleerd, herstart uw server en u zou moeten beginnen met het ontvangen van logs."
+         "discord-integration-info":"U kunt aan de slag met het verzenden van logs naar uw Discord-server door de documentatie te volgen. Nadat u de vereiste afhankelijkheden heeft geïnstalleerd, herstart u uw server en u zou moeten beginnen met het ontvangen van logs."
       }
    },
    "community":{
