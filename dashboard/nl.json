@@ -1,0 +1,262 @@
+{
+   "general":{
+      "loading":"Laden...",
+      "search":"Zoeken",
+      "filters":"Filters",
+      "clear-filters":"Wis filters"
+   },
+   "auth":{
+      "logout":"Uitloggen"
+   },
+   "request":{
+      "info":"U heeft geen toegang om de logs van {{community}} te bekijken. U kan hier toegang aanvragen zodat een beheerder u kan goedkeuren.",
+      "pending":"Uw toegangsaanvraag is in behandeling, u heeft deze aanvraag {{time}} ingediend.",
+      "access":"Toegang aanvragen"
+   },
+   "dashboard":{
+      "title":"Analytics",
+      "header":"Dashboard",
+      "sub-header":"Een snel kijkje in wat we over u weten!",
+      "stats":{
+         "servers":"Servers",
+         "players":"Spelers",
+         "connections":"Verbindingen",
+         "active-logs":"Actieve logs",
+         "archived-logs":"Gearchiveerde logs"
+      },
+      "charts":{
+         "logs-by-day":"Logs per dag",
+         "connections-by-day":"Verbindingen per dag",
+         "average-connections-by-hour":"Gemiddelde verbindingen per uur",
+         "new-players-by-day":"Nieuwe spelers per dag"
+      }
+   },
+   "errors":{
+      "title":"Foutmeldingen",
+      "index":{
+         "header":"Bekijk foutmeldingen",
+         "sub-header":"Bekijk alle ontvangen foutmeldingen van een bepaalde server",
+         "filters":{
+            "resolved":"Inclusief opgelost",
+            "server":"Server"
+         },
+         "table":{
+            "server":"Server",
+            "error":"Foutmelding",
+            "realm":"Realm",
+            "occurrences":"Gevallen",
+            "last":"Laatste"
+         },
+         "empty":"Er zijn op dit moment geen foutmeldingen met deze filter..."
+      },
+      "profile":{
+         "header":"Foutmelding #{{id}}",
+         "sub-header":"Krijg meer inzicht in deze foutmelding",
+         "copied":"Gekopieerd",
+         "share":"Delen",
+         "resolved":"Opgelost",
+         "error":"Foutmelding",
+         "stack":"Stack",
+         "lead-up-logs":"Aanloop logs",
+         "mark-resolved":"Markeer als opgelost",
+         "stats":{
+            "server":"Server",
+            "occurrences":"Gevallen",
+            "date":"Datum"
+         },
+         "table":{
+            "category":"Categorie",
+            "log":"Log",
+            "when":"Wanneer"
+         }
+      },
+      "shared":{
+         "header":"Gedeelde foutmelding",
+         "sub-header":"Deze foutmelding is met u gedeeld"
+      }
+   },
+   "logs":{
+      "title":"Logs",
+      "live":{
+         "header":"Live Logs",
+         "sub-header":"Bekijk alle logs zodra ze binnenkomen!",
+         "table":{
+            "server":"Server",
+            "category":"Categorie",
+            "log":"Log"
+         },
+         "empty":"Er zijn op dit moment geen logs met deze filter..."
+      },
+      "browse":{
+         "header":"Bekijk logs",
+         "sub-header":"Bekijk alle logs voor een bepaalde server, gebruik filters om te vinden wat u wil",
+         "filters":{
+            "archived":"Gearchiveerd",
+            "server":"Server",
+            "category":"Categorie",
+            "player":"Speler"
+         },
+         "table":{
+            "server":"Server",
+            "category":"Categorie",
+            "log":"Log",
+            "when":"Wanneer"
+         },
+         "empty":"Er zijn op dit moment geen logs met deze filter..."
+      },
+      "export":{
+         "header":"Exporteer logs",
+         "sub-header":"Exporteer uw logs naar een csv bestand voor extra flexibiliteit",
+         "create-export":"Maak export",
+         "download":"Download",
+         "generating":"Genereren...",
+         "filters":{
+            "server":"Server"
+         },
+         "table":{
+            "server":"Server",
+            "name":"Naam",
+            "date-range":"Datumbereik",
+            "type":"Soort",
+            "created":"Gemaakt"
+         },
+         "empty":"Er zijn op dit moment geen exports met deze filter..."
+      },
+      "export-create":{
+         "header":"Maak een log export",
+         "game-server":"Game Server",
+         "name":"Naam (optioneel)",
+         "format":"Menselijk formaat",
+         "date-start":"Begindatum",
+         "date-end":"Einddatum",
+         "create":"Maak"
+      }
+   },
+   "players":{
+      "index":{
+         "header":"Spelers",
+         "sub-header":"Bekijk alle spelers met logs voor deze community",
+         "last-seen":"Laatst gezien {{time}}",
+         "filters":{
+            "server":"Server"
+         },
+         "empty":"Er zijn op dit moment geen spelers met deze filter..."
+      },
+      "side-bar":{
+         "details":"Details",
+         "server":"Server",
+         "first-joined":"Eerst gezien",
+         "steam-name":"Steam naam",
+         "steamid":"SteamID",
+         "steamid-64":"SteamID 64",
+         "minecraft-name":"Minecraft naam",
+         "minecraftid":"MinecraftID",
+         "statistics":"Statistieken",
+         "active-logs":"Actieve logs",
+         "archived-logs":"Gearchiveerde logs",
+         "notes":"Notities",
+         "steam-profile":"Steam profiel",
+         "namemc-profile":"NameMC profiel",
+         "filter-logs":"Filter logs"
+      },
+      "meta":{
+         "platfrom-name":"Platform Naam",
+         "platfrom-id":"Platform ID",
+         "health":"Health",
+         "weapon":"Wapen",
+         "team":"Team"
+      }
+   },
+   "status":{
+      "title":"Status",
+      "index":{
+         "players":"Spelers",
+         "uptime":"Uptime",
+         "90-days-ago":"90 dagen geleden",
+         "today":"Vandaag"
+      },
+      "manage":{
+         "header":"Status beheren",
+         "sub-header":"Beheer wat verschijnt op uw publieke statuspagina",
+         "view-status-page":"Bekijk statuspagina",
+         "table":{
+            "server":"Server",
+            "show-players":"Laat spelers zien",
+            "show-uptime":"Laat uptime zien"
+         }
+      }
+   },
+   "users":{
+      "header":"Gebruikers",
+      "sub-header":"Geef een gebruiker toegang tot dit paneel.",
+      "access-requests":"Toegangsaanvragen",
+      "manage-users":"Gebruikers beheren",
+      "table":{
+         "user":"Gebruiker",
+         "platform":"platform",
+         "requested":"Aangevraagd",
+         "accept":"Accepteren",
+         "decline":"Afwijzen",
+         "manage-community":"Beheer community",
+         "manage-users":"Gebruikers beheren",
+         "manage-errors":"Foutmeldingen beheren",
+         "view-server":"Bekijk {{server}}",
+         "joined":"Toegevoegd",
+         "kick":"Verwijder"
+      }
+   },
+   "servers":{
+      "index":{
+         "header":"Servers",
+         "sub-header":"Een volledige lijst van al uw geregistreerde servers. U heeft momenteel {{slots}} van uw slots gebruikt.",
+         "create-server":"Maak Server",
+         "purchase-allotment-token":"Koop toewijzingstoken"
+      },
+      "create":{
+         "header":"Maak",
+         "sub-header":"Voeg een nieuwe server toe aan uw community",
+         "sub-header-edit":"Bewerk deze server",
+         "name":"Naam",
+         "region":"Regio",
+         "ip":"IP-adres",
+         "game":"Spel",
+         "color":"Kleur",
+         "discord-webhook":"Discord Webhook (Optioneel)",
+         "report-errors":"Fouten rapporteren",
+         "save":"Opslaan",
+         "create":"Maak"
+      },
+      "profile":{
+         "sub-header":"Deze server en wat u ermee kunt doen",
+         "edit":"Bewerk",
+         "download-integration":"Integratie downloaden",
+         "download-integration-info":"Download de integratie voor deze addon. Dit levert een voorgeconfigureerd zip-bestand op dat u rechtstreeks op uw server kunt installeren. Controleer de documentatie voor het betreffende spel op eventuele extra stappen die nodig zijn.",
+         "docs":"Documentatie",
+         "download":"Download",
+         "error-logging":"Foutmeldingen loggen",
+         "error-logging-info":"We zien dat u foutmeldingen loggen heeft ingeschakeld. Om deze functie te laten werken voor Garry's Mod, moet u het volgende toevoegen aan uw 'server\/garrysmod\/cfg\/server.cfg' bestand.",
+         "discord-integration":"Discord integratie",
+         "discord-integration-info":"U kunt aan de slag met het verzenden van logs naar uw Discord-server door de documentatie te volgen. Nadat u de vereiste afhankelijkheden heeft geïnstalleerd, herstart u uw server en u zou moeten beginnen met het ontvangen van logs."
+      }
+   },
+   "community":{
+      "title":"Administratie",
+      "header":"Community",
+      "sub-header":"Bewerk de informatie over deze community",
+      "name":"Naam",
+      "custom-domain":"Aangepast domein (Optioneel)",
+      "custom-domain-info":"Elke community kan een aangepast domein toevoegen.",
+      "docs":"Documentatie",
+      "clear":"Wissen",
+      "save":"Opslaan"
+   },
+   "settings":{
+      "header":"Gebruikersinstellingen",
+      "sub-header":"Verander hier uw instellingen!",
+      "name":"Naam",
+      "dark-mode":"Donkere modus",
+      "language":"Taal",
+      "logout":"Uitloggen",
+      "save":"Opslaan"
+   }
+}
