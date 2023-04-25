@@ -1,0 +1,266 @@
+{
+   "general":{
+      "loading":"Yükleniyor...",
+      "search":"Ara",
+      "filters":"Filtreler",
+      "clear-filters":"Filtreleri Temizle"
+   },
+   "auth":{
+      "logout":"Çıkış Yap"
+   },
+   "request":{
+      "info": "Görünüşe göre {{community}} için günlüklere erişiminiz yok. Buradan erişim talep edebilirsiniz, bir yöneticinin sizi onaylamasına izin vererek.",
+     "pending": "Erişim talebiniz beklemede, bu talebi {{time}} yaptınız.",
+     "access": "Erişim İsteği"
+   },
+   "dashboard": {
+      "title": "Analitik",
+      "header": "Kontrol Paneli",
+      "sub-header": "Sizin hakkınızda neler bildiğimize dair bir göz atış!",
+      "stats":{
+         "servers":"Sunucular",
+         "players":"Oyuncular",
+         "connections":"Bağlanananlar",
+         "active-logs":"Aktif Loglar",
+         "archived-logs":"Arşivlenmiş Loglar"
+      },
+      "charts":{
+         "logs-by-day": "Günlük Loglar",
+         "connections-by-day": "Günlük Bağlananlar",
+         "average-connections-by-hour": "Saat Bazında Ortalama Bağlantılar",
+         "new-players-by-day": "Günlük Yeni Oyuncular"
+      }
+   },
+      "errors": {
+         "title": "Hatalar",
+         "filters": {
+            "all": "Tümü",
+            "open": "Açık",
+            "resolved": "Çözümlenmiş",
+            "filter": "Filtrele"
+      },
+      "list": {
+         "empty": "Şu anda bu filtreye gösterilecek hata yok..."
+      },
+      "profile": {
+         "header": "Hata #{{id}}",
+         "sub-header": "Bu hatanın daha iyi bir ayrıntılı açıklamasını alın",
+         "copied": "Kopyalandı",
+         "share": "Paylaş",
+         "resolved": "Çözümlendi",
+         "error": "Hata",
+         "stack": "Yığın",
+         "lead-up-logs": "Önceden Gelen Günlükler",
+         "mark-resolved": "Çözümlendi Olarak İşaretle",
+         "stats": {
+            "server": "Sunucu",
+            "occurrences": "Olaylar",
+            "date": "Tarih"
+         },
+         "table": {
+            "category": "Kategori",
+            "log": "Günlük",
+            "when": "Ne Zaman"
+         }
+      },
+      "shared": {
+         "header": "Paylaşılan Hata",
+         "sub-header": "Bu hata sizinle paylaşıldı"
+      }
+   },
+   "logs": {
+      "title": "Logs",
+      "live": {
+        "header": "Canlı Loglar",
+        "sub-header": "Tüm logları gerçek zamanlı olarak görün!",
+        "table": {
+          "server": "Sunucu",
+          "category": "Kategori",
+          "log": "Log"
+        },
+        "empty": "Bu filtreye göre şu anda gösterilecek log yok..."
+      },
+      "browse": {
+        "header": "Loglara Göz At",
+        "sub-header": "Belirli bir sunucu için tüm logları göz atın, istediğiniz tam özellikleri bulmak için filtreleri kullanın",
+        "filters": {
+          "archived": "Arşivlenmiş",
+          "server": "Sunucu",
+          "category": "Kategori",
+          "player": "Oyuncu"
+        },
+        "table": {
+          "server": "Sunucu",
+          "category": "Kategori",
+          "log": "log",
+          "when": "Ne zaman"
+        },
+        "empty": "Bu filtreye göre şu anda gösterilecek log yok..."
+      },
+      "export": {
+        "header": "logları Dışa Aktar",
+        "sub-header": "loglarınızı bir csv dosyasına dışa aktarın, ekstra esneklik için",
+        "create-export": "Dışa Aktarım Oluştur",
+        "download": "İndir",
+        "generating": "Oluşturuluyor...",
+        "filters": {
+          "server": "Sunucu"
+        },
+        "table": {
+          "server": "Sunucu",
+          "name": "Adı",
+          "date-range": "Tarih Aralığı",
+          "type": "Tipi",
+          "created": "Oluşturulma Tarihi"
+        },
+        "empty": "Bu filtreye göre şu anda gösterilecek dışa aktarma yok..."
+      },
+      "export-create": {
+        "header": "Log Dışa Aktarımı Oluştur",
+        "game-server": "Oyun Sunucusu",
+        "name": "İsim (İsteğe Bağlı)",
+        "format": "İnsan Okunur Biçim (İnsanların okuyabileceği bir şekilde dışa aktar)",
+        "date-start": "Başlangıç Tarihi",
+        "date-end": "Bitiş Tarihi",
+        "create": "Oluştur"
+      },
+      "categories": {
+        "header": "Log Kategorileri",
+        "sub-header": "Log kategorilerinizin ayarlarını yönetin. Bazı değişiklikler oyun sunucusu yeniden başlatmasını gerektirebilir.",
+        "table": {
+          "server": "Sunucu",
+          "category": "Log Kategorisi",
+          "date-range": "Tarih Aralığı",
+          "disabled": "Devre Dışı",
+          "discord": "Discord"
+        }
+      }
+   },     
+   "players": {
+      "index": {
+          "header": "Oyuncular",
+          "sub-header": "Bu toplulukta kayıtlı olan oyuncuların kataloğuna göz atın",
+          "last-seen": "Son görülme: {{time}}",
+          "filters": {
+              "server": "Sunucu"
+          },
+          "empty": "Bu filtreye göre gösterilecek oyuncu yok..."
+      },
+      "side-bar": {
+          "details": "Detaylar",
+          "server": "Sunucu",
+          "first-joined": "İlk Katılım",
+          "steam-name": "Steam İsmi",
+          "steamid": "SteamID",
+          "steamid-64": "SteamID 64",
+          "minecraft-name": "Minecraft İsmi",
+          "minecraftid": "MinecraftID",
+          "statistics": "İstatistikler",
+          "active-logs": "Aktif Kayıtlar",
+          "archived-logs": "Arşivlenmiş Kayıtlar",
+          "notes": "Notlar",
+          "steam-profile": "Steam Profili",
+          "namemc-profile": "NameMC Profili",
+          "filter-logs": "Kayıtları Filtrele"
+      },
+      "meta": {
+          "platfrom-name": "Platform Adı",
+          "platfrom-id": "Platform ID'si",
+          "health": "Sağlık",
+          "weapon": "Silah",
+          "team": "Takım"
+      }
+   },
+   "status": {
+      "title": "Durum",
+      "index": {
+         "players": "Oyuncular",
+         "uptime": "Çalışma Süresi",
+         "90-days-ago": "90 gün önce",
+         "today": "Bugün"
+      },
+      "manage": {
+         "header": "Durumu Yönet",
+         "sub-header": "Genel durum sayfanızda gösterilecek şeyleri yönetin",
+         "view-status-page": "Durum Sayfasını Görüntüle",
+         "table": {
+            "server": "Sunucu",
+            "show-players": "Oyuncuları Göster",
+            "show-uptime": "Çalışma Süresini Göster"
+         }
+      }
+   },
+   "users": {
+      "header": "Kullanıcılar",
+      "sub-header": "Bir kullanıcıya bu panelde erişim sağlayın.",
+      "access-requests": "Erişim İstekleri",
+      "manage-users": "Kullanıcıları Yönet",
+      "table": {
+         "user": "Kullanıcı",
+         "platform": "platform",
+         "requested": "İstendi",
+         "accept": "Kabul Et",
+         "decline": "Reddet",
+         "manage-community": "Topluluğu Yönet",
+         "manage-users": "Kullanıcıları Yönet",
+         "manage-errors": "Hataları Yönet",
+         "view-server": "{{sunucu}}'ya Bak",
+         "joined": "Katılım",
+         "kick": "At"
+      }
+   },  
+   "servers":{
+      "index":{
+         "header":"Sunucular",
+         "sub-header":"Kayıtlı tüm sunucuların tam listesi. Şu anda {{slots}} yuvalarından {{used}} tanesini kullanıyorsunuz.",
+         "create-server":"Sunucu Oluştur",
+         "purchase-allotment-token":"Tahsisat Jetonu Satın Al"
+      },
+      "create":{
+         "header":"Oluştur",
+         "sub-header":"Topluluğunuza yeni bir sunucu ekleyin",
+         "sub-header-edit":"Bu sunucuyu düzenleyin",
+         "name":"İsim",
+         "region":"Bölge",
+         "ip":"IP Adresi",
+         "game":"Oyun",
+         "color":"Renk",
+         "discord-webhook":"Discord Webhook (İsteğe Bağlı)",
+         "report-errors":"Hataları Bildir",
+         "save":"Kaydet",
+         "create":"Oluştur"
+      },
+      "profile":{
+         "sub-header":"Bu sunucu ve ne yapabileceğiniz",
+         "edit":"Düzenle",
+         "download-integration":"Entegrasyonu İndir",
+         "download-integration-info":"Bu eklenti için entegrasyonu indirin. Bu, doğrudan sunucunuza yükleyebileceğiniz önceden yapılandırılmış bir zip dosyası sağlayacaktır. İlgili oyun için ek adımları kontrol etmek için lütfen belgeleri kontrol edin.",
+         "docs":"Belgeler",
+         "download":"İndir",
+         "error-logging":"Hata Günlüğü",
+         "error-logging-info":"Hata günlüğü etkinleştirdiğinizi tespit ettik. Bu özelliğin Garry's Mod için çalışması için, 'server / garrysmod / cfg / server.cfg' dosyanıza aşağıdakileri eklemeniz gerekecektir.",
+         "discord-integration":"Discord Entegrasyonu",
+         "discord-integration-info":"Belgeleri takip ederek Discord sunucunuza günlükler göndermeye başlayabilirsiniz. Gerekli bağımlılıkları yükledikten sonra sunucunuzu yeniden başlatın ve günlük almaya başlamalısınız."
+      }
+   },
+   "community":{
+      "title":"Yönetim",
+      "header":"Topluluk",
+      "sub-header":"Bu topluluğun bilgilerini düzenleyin",
+      "name":"İsim",
+      "custom-domain":"Özel Alan Adı (İsteğe Bağlı)",
+      "custom-domain-info":"Her topluluk özel bir alan adı ekleyebilir.",
+      "docs":"Belgeler",
+      "clear":"Temizle",
+      "save":"Kaydet"
+   },
+   "settings":{
+      "header":"Kullanıcı Ayarları",
+      "sub-header":"Ayarlarınızı buradan değiştirin!",
+      "name":"İsim",
+      "dark-mode":"Karanlık Mod",
+      "language":"Dil",
+      "logout":"Çıkış Yap",
+      "save":"Kaydet"
+   }
+}
