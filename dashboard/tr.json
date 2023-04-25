@@ -98,7 +98,7 @@
         "empty": "Bu filtreye göre şu anda gösterilecek log yok..."
       },
       "export": {
-        "header": "logları Dışa Aktar",
+        "header": "Logları Dışa Aktar",
         "sub-header": "loglarınızı bir csv dosyasına dışa aktarın, ekstra esneklik için",
         "create-export": "Dışa Aktarım Oluştur",
         "download": "İndir",
@@ -204,7 +204,7 @@
          "manage-community": "Topluluğu Yönet",
          "manage-users": "Kullanıcıları Yönet",
          "manage-errors": "Hataları Yönet",
-         "view-server": "{{sunucu}}'ya Bak",
+         "view-server": "{{server}}'a Bak",
          "joined": "Katılım",
          "kick": "At"
       }
@@ -212,7 +212,7 @@
    "servers":{
       "index":{
          "header":"Sunucular",
-         "sub-header":"Kayıtlı tüm sunucuların tam listesi. Şu anda {{slots}} yuvalarından {{used}} tanesini kullanıyorsunuz.",
+         "sub-header":"Kayıtlı tüm sunucuların tam listesi. Şu anda {{slots}} yuva kullanıyorsunuz.",
          "create-server":"Sunucu Oluştur",
          "purchase-allotment-token":"Tahsisat Jetonu Satın Al"
       },
