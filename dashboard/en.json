@@ -94,7 +94,9 @@
             "archived":"Archived",
             "server":"Server",
             "category":"Category",
-            "player":"Player"
+            "player":"Player",
+            "date-start":"After",
+            "date-end":"Before"
          },
          "table":{
             "server":"Server",
